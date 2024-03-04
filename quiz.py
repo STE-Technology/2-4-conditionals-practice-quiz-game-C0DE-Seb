@@ -8,6 +8,7 @@ Description: Multiple choice quiz with final score
 print("-------------------------------")
 print("Multiple-Choice Quiz Game")
 
+#Initialize score
 score = 0
 
 #First question
@@ -55,6 +56,7 @@ if third_answer == "c":
 else:
     print("Incorrect.")
 
+#Calculate final score
 final_score = score / 3 * 100
 
 #Final results
