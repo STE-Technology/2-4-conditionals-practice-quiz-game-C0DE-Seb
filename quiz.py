@@ -21,7 +21,7 @@ print("\n1. What is the power house of the cell? \
 answer = input("\n> ")
 
 #Is the first users answer right
-if answer == "b":
+if answer == "b" or answer == "B":
     print("Correct!")
     score = score + 1
 else:
@@ -37,7 +37,7 @@ print("\n2. Who discovered gravity \
 answer = input("\n> ")
 
 #Is the second users answer right
-if answer == "a":
+if answer == "a" or answer == "A":
     print("Correct!")
     score = score + 1
 else:
@@ -53,7 +53,7 @@ print("\n3. Which element is a non-metal \
 answer = input("\n> ")
 
 #Is the third users answer right
-if answer == "c":
+if answer == "c" or answer == "C":
     print("Correct!")
     score = score + 1
 else:
